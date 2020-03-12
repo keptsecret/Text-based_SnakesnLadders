@@ -1,6 +1,6 @@
-/*#include "Player.h"
-#include "Board.h"
-#include <string>*/
+#include "Player.h"
+//#include "Board.h"
+#include <string>
 #ifndef SNAKE_H
 #define SNAKE_H
 
@@ -17,6 +17,7 @@ class Snake {
     void affectPlayer(Player p);
     bool checkPosition(int tile);
     void setPosition(int tile);
+    int getPosition();
     std::string testHello();
 };
 

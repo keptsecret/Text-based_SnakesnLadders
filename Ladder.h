@@ -14,6 +14,7 @@ class Ladder {
     void affectPlayer(Player p);
     bool checkPosition(int tile);
     void setPosition(int tile);
+    int getPosition();
 };
 
 #endif

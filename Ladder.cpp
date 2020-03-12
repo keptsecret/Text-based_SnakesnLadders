@@ -15,3 +15,5 @@ bool Ladder::checkPosition(int tile) { return tile == bottom_position; }
 
 // sets the position of the Snake's mouth
 void Ladder::setPosition(int tile) { bottom_position = tile; }
+
+int Ladder::getPosition() { return bottom_position; }

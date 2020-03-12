@@ -19,4 +19,6 @@ bool Snake::checkPosition(int tile) { return tile == mouth_position; }
 // sets the position of the Snake's mouth
 void Snake::setPosition(int tile) { mouth_position = tile; }
 
+int Snake::getPosition() { return mouth_position; }
+
 std::string Snake::testHello() { return "Hello"; }

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/Board.cpp
+vector
+-
+iostream
+-
+ctime
+-
+Snake.h
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/Snake.h
+Board.h
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/Board.h
+
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/Board.h
+vector
+-
+Snake.h
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/Snake.h
+Ladder.h
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/Ladder.h
+
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/Ladder.h
+Player.h
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/Player.h
+
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/Player.h
+string
+-
+
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/Snake.h
+Player.h
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/Player.h
+string
+-
+

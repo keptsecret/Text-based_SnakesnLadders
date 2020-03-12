@@ -1,4 +1,5 @@
-#include <new>
+//#include <new>
+#include <vector>
 #include "Snake.h"
 #include "Ladder.h"
 #ifndef BOARD_H
@@ -9,14 +10,17 @@ class Board {
     
     int size;
     int dice;
-    Snake* snake_list;
-    Ladder* ladder_list;
+    std::vector<Snake> snake_list;
+    std::vector<Ladder> ladder_list;
 
     public:
 
     Board(int s, int d);
     int getSize();
     void initialize();
+    void checkBoardStatus();
 };
+
+//int main(int argc, char const *argv[]);
 
 #endif

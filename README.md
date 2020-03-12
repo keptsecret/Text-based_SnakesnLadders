@@ -1,5 +1,11 @@
 # Text-based Snakes 'n Ladders
 
+## v0.1.2
+
+Implemented `std::vectors` but snakes and ladders are not being added to the vectors yet
+
+__Version notes:__ Fix that
+
 ## v0.1.1
 
 __Version notes:__ Code is still deeply broken. Will have to look into the use of `std::vectors` instead of arrays and `new[]`
