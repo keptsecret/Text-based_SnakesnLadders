@@ -14,6 +14,7 @@ class Player {
 
     Player(std::string n, int pid, int p);
     void move(int dice_faces);
+    void move(int affector, char sl);
     int getPosition();
 };
 

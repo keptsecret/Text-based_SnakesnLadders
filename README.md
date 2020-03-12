@@ -1,5 +1,9 @@
 # Text-based Snakes 'n Ladders
 
+## v0.1.1
+
+__Version notes:__ Code is still deeply broken. Will have to look into the use of `std::vectors` instead of arrays and `new[]`
+
 ## v0.1
 
 This is probably been done before but well, this is my take on it and also to practice my object-oriented in C++.  

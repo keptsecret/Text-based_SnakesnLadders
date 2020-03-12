@@ -17,4 +17,19 @@ void Player::move(int dice_faces)
     position += dice_roll;
 }
 
+void Player::move(int affector, char sl)
+{
+    switch (sl)
+    {
+        case 'l':
+            position += affector;
+            break;
+        case 's':
+            position -= affector;
+            break;
+        default:
+            break;
+    }
+}
+
 int Player::getPosition() { return position; }

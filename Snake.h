@@ -1,5 +1,6 @@
-#include "Player.h"
-#include <string>
+/*#include "Player.h"
+#include "Board.h"
+#include <string>*/
 #ifndef SNAKE_H
 #define SNAKE_H
 

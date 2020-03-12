@@ -15,6 +15,7 @@ class Board {
     public:
 
     Board(int s, int d);
+    int getSize();
     void initialize();
 };
 

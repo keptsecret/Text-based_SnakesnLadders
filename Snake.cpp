@@ -1,6 +1,7 @@
 #include "Snake.h"
 #include "Player.h"
 #include <string>
+#include <ctime>
 
 Snake::Snake(int l, int p)
 {
@@ -10,10 +11,7 @@ Snake::Snake(int l, int p)
 
 // moves the Player back |length| tiles if they land on tile with
 // |mouth_position|
-void Snake::affectPlayer(Player p) 
-{
-
-}
+void Snake::affectPlayer(Player p) { p.move(length, 's'); }
 
 // returns true if a Player is on the tile
 bool Snake::checkPosition(int tile) { return tile == mouth_position; }
