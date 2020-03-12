@@ -21,6 +21,4 @@ class Board {
     void checkBoardStatus();
 };
 
-//int main(int argc, char const *argv[]);
-
 #endif

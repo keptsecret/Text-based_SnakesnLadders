@@ -1,14 +1,20 @@
 # Text-based Snakes 'n Ladders
 
+## v0.1.3
+
+Creating the board now works
+
+___Version notes:__ create driver for the game and add user input and modes_
+
 ## v0.1.2
 
 Implemented `std::vectors` but snakes and ladders are not being added to the vectors yet
 
-__Version notes:__ Fix that
+___Version notes:__ Fix that_
 
 ## v0.1.1
 
-__Version notes:__ Code is still deeply broken. Will have to look into the use of `std::vectors` instead of arrays and `new[]`
+___Version notes:__ Code is still deeply broken. Will have to look into the use of `std::vectors` instead of arrays and `new[]`_
 
 ## v0.1
 

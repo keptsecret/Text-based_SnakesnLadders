@@ -15,24 +15,40 @@ Board::Board(int s, int d)
     dice = d;
 }
 
-void Board::initialize()
+void Board::initialize(int ns, int nl)
 {
     using namespace std;
+    int num_snake = ns;
+    int num_ladder = nl;
 
     std::cout << "Initializing... ";
+    // create the snakes
     srand(time(nullptr));
-    snake_list.reserve(5);
-    for (int i = 0; i < snake_list.size(); i++)
+    snake_list.reserve(num_snake);
+    for (int i = 0; i < num_snake; i++)
     {
-        int pos = rand() % 100 + 1;
-        snake_list.push_back(Snake(pos, pos + rand() % (size - pos)));
+        // calculate random position for the snake in chunks spaced equally apart
+        // prevent snakes from spawning too close to start or end
+        int pos;
+        do 
+        {
+            pos = rand() % (size / num_snake) + (size / num_snake * i) + 1;
+        } while (pos < 5 || pos > 90);
+        snake_list.push_back(Snake(rand() % pos, pos));
     }
 
-    ladder_list.reserve(5);
-    for (int i = 0; i < ladder_list.size(); i++)
+    // create the ladders
+    ladder_list.reserve(num_ladder);
+    for (int i = 0; i < num_ladder; i++)
     {
-        int pos = rand() % 100 + 1;
-        ladder_list.push_back(Ladder(pos, pos + rand() % (size - pos)));
+        // calculate random position for the ladder in chunks spaced equally apart
+        // prevent ladders from spawning too close to start or end
+        int pos;
+        do 
+        {
+            pos = rand() % (size / num_ladder) + (size / num_ladder * i) + 1;
+        } while (pos < 5 || pos > 90);
+        ladder_list.push_back(Ladder(pos + rand() % (size - pos), pos));
     }
     std::cout << "Done" << std::endl;
     std::cout << "There are " << snake_list.size() << " snakes and " << ladder_list.size() << " ladders." << std::endl;
@@ -51,13 +67,3 @@ void Board::checkBoardStatus()
 }
 
 int Board::getSize() { return size; }
-
-/*
-int main(int argc, char const *argv[])
-{
-    Board board = Board(100, 6);
-    board.initialize();
-    board.checkBoardStatus();
-    return 0;
-}
-*/
