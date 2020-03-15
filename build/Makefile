@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/nut/Code/CPP/TextbasedSnakesnLadders
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nut/Code/CPP/TextbasedSnakesnLadders
+CMAKE_BINARY_DIR = /Users/nut/Code/CPP/TextbasedSnakesnLadders/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nut/Code/CPP/TextbasedSnakesnLadders/CMakeFiles /Users/nut/Code/CPP/TextbasedSnakesnLadders/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nut/Code/CPP/TextbasedSnakesnLadders/build/CMakeFiles /Users/nut/Code/CPP/TextbasedSnakesnLadders/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nut/Code/CPP/TextbasedSnakesnLadders/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nut/Code/CPP/TextbasedSnakesnLadders/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,33 +149,6 @@ Board.s: Board.cpp.s
 Board.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Board.cpp.s
 .PHONY : Board.cpp.s
-
-GameDriver.o: GameDriver.cpp.o
-
-.PHONY : GameDriver.o
-
-# target to build an object file
-GameDriver.cpp.o:
-	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/GameDriver.cpp.o
-.PHONY : GameDriver.cpp.o
-
-GameDriver.i: GameDriver.cpp.i
-
-.PHONY : GameDriver.i
-
-# target to preprocess a source file
-GameDriver.cpp.i:
-	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/GameDriver.cpp.i
-.PHONY : GameDriver.cpp.i
-
-GameDriver.s: GameDriver.cpp.s
-
-.PHONY : GameDriver.s
-
-# target to generate assembly for a file
-GameDriver.cpp.s:
-	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/GameDriver.cpp.s
-.PHONY : GameDriver.cpp.s
 
 Ladder.o: Ladder.cpp.o
 
@@ -258,6 +231,33 @@ Snake.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Snake.cpp.s
 .PHONY : Snake.cpp.s
 
+tester.o: tester.cpp.o
+
+.PHONY : tester.o
+
+# target to build an object file
+tester.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/tester.cpp.o
+.PHONY : tester.cpp.o
+
+tester.i: tester.cpp.i
+
+.PHONY : tester.i
+
+# target to preprocess a source file
+tester.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/tester.cpp.i
+.PHONY : tester.cpp.i
+
+tester.s: tester.cpp.s
+
+.PHONY : tester.s
+
+# target to generate assembly for a file
+tester.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/tester.cpp.s
+.PHONY : tester.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,9 +270,6 @@ help:
 	@echo "... Board.o"
 	@echo "... Board.i"
 	@echo "... Board.s"
-	@echo "... GameDriver.o"
-	@echo "... GameDriver.i"
-	@echo "... GameDriver.s"
 	@echo "... Ladder.o"
 	@echo "... Ladder.i"
 	@echo "... Ladder.s"
@@ -282,6 +279,9 @@ help:
 	@echo "... Snake.o"
 	@echo "... Snake.i"
 	@echo "... Snake.s"
+	@echo "... tester.o"
+	@echo "... tester.i"
+	@echo "... tester.s"
 .PHONY : help
 
 

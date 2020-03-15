@@ -5,10 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/nut/Code/CPP/TextbasedSnakesnLadders/Board.cpp" "/Users/nut/Code/CPP/TextbasedSnakesnLadders/CMakeFiles/game.dir/Board.cpp.o"
+  "/Users/nut/Code/CPP/TextbasedSnakesnLadders/GameDriver.cpp" "/Users/nut/Code/CPP/TextbasedSnakesnLadders/CMakeFiles/game.dir/GameDriver.cpp.o"
   "/Users/nut/Code/CPP/TextbasedSnakesnLadders/Ladder.cpp" "/Users/nut/Code/CPP/TextbasedSnakesnLadders/CMakeFiles/game.dir/Ladder.cpp.o"
   "/Users/nut/Code/CPP/TextbasedSnakesnLadders/Player.cpp" "/Users/nut/Code/CPP/TextbasedSnakesnLadders/CMakeFiles/game.dir/Player.cpp.o"
   "/Users/nut/Code/CPP/TextbasedSnakesnLadders/Snake.cpp" "/Users/nut/Code/CPP/TextbasedSnakesnLadders/CMakeFiles/game.dir/Snake.cpp.o"
-  "/Users/nut/Code/CPP/TextbasedSnakesnLadders/tester.cpp" "/Users/nut/Code/CPP/TextbasedSnakesnLadders/CMakeFiles/game.dir/tester.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

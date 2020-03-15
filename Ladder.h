@@ -11,7 +11,7 @@ class Ladder {
     public:
 
     Ladder(int l, int p);
-    void affectPlayer(Player p);
+    void affectPlayer(Player &p);
     bool checkPosition(int tile);
     void setPosition(int tile);
     int getPosition();

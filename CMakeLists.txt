@@ -5,4 +5,4 @@ project(TextbasedSnakesnLadders VERSION 0.1.3
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(game tester.cpp Board.cpp Ladder.cpp Snake.cpp Player.cpp)
+add_executable(game GameDriver.cpp Board.cpp Ladder.cpp Snake.cpp Player.cpp)

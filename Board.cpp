@@ -3,7 +3,7 @@
 #include <vector>
 #include <iostream>
 #include <ctime>
-#include "Snake.h"
+//#include "Snake.h"
 //#include "Player.h"
 //#include "Ladder.h"
 #include "Board.h"
@@ -52,6 +52,28 @@ void Board::initialize(int ns, int nl)
     }
     std::cout << "Done" << std::endl;
     std::cout << "There are " << snake_list.size() << " snakes and " << ladder_list.size() << " ladders." << std::endl;
+}
+
+// to be used at the end of every round, updates the status of the board and Players
+bool Board::update(Player &p)
+{
+    for (Snake &s : snake_list) 
+    {
+        if (s.checkPosition(p.getPosition()))
+        {
+            s.affectPlayer(p);
+        }
+    }
+
+    for (Ladder &l : ladder_list)
+    {
+        if (l.checkPosition(p.getPosition()))
+        {
+            l.affectPlayer(p);
+        }
+    }
+
+    return p.getPosition() == 100;
 }
 
 void Board::checkBoardStatus()

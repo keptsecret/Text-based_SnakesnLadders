@@ -1,0 +1,3 @@
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/build/CMakeFiles/rebuild_cache.dir
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/build/CMakeFiles/edit_cache.dir
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/build/CMakeFiles/game.dir

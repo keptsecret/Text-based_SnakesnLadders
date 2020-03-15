@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/game.dir/tester.cpp.o -c /Users/nut/Code/CPP/TextbasedSnakesnLadders/tester.cpp",
+  "file": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/tester.cpp"
+},
+{
+  "directory": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/game.dir/Board.cpp.o -c /Users/nut/Code/CPP/TextbasedSnakesnLadders/Board.cpp",
+  "file": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/Board.cpp"
+},
+{
+  "directory": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/game.dir/Ladder.cpp.o -c /Users/nut/Code/CPP/TextbasedSnakesnLadders/Ladder.cpp",
+  "file": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/Ladder.cpp"
+},
+{
+  "directory": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/game.dir/Snake.cpp.o -c /Users/nut/Code/CPP/TextbasedSnakesnLadders/Snake.cpp",
+  "file": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/Snake.cpp"
+},
+{
+  "directory": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/game.dir/Player.cpp.o -c /Users/nut/Code/CPP/TextbasedSnakesnLadders/Player.cpp",
+  "file": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/Player.cpp"
+}
+]

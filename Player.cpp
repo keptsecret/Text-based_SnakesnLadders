@@ -23,9 +23,11 @@ void Player::move(int affector, char sl)
     {
         case 'l':
             position += affector;
+            if (position > 100) { position = position - (position - 100); }
             break;
         case 's':
             position -= affector;
+            if (position < 0) { position = 0; }
             break;
         default:
             break;
