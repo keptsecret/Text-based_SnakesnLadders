@@ -150,6 +150,33 @@ Board.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Board.cpp.s
 .PHONY : Board.cpp.s
 
+GameDriver.o: GameDriver.cpp.o
+
+.PHONY : GameDriver.o
+
+# target to build an object file
+GameDriver.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/GameDriver.cpp.o
+.PHONY : GameDriver.cpp.o
+
+GameDriver.i: GameDriver.cpp.i
+
+.PHONY : GameDriver.i
+
+# target to preprocess a source file
+GameDriver.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/GameDriver.cpp.i
+.PHONY : GameDriver.cpp.i
+
+GameDriver.s: GameDriver.cpp.s
+
+.PHONY : GameDriver.s
+
+# target to generate assembly for a file
+GameDriver.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/GameDriver.cpp.s
+.PHONY : GameDriver.cpp.s
+
 Ladder.o: Ladder.cpp.o
 
 .PHONY : Ladder.o
@@ -231,33 +258,6 @@ Snake.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Snake.cpp.s
 .PHONY : Snake.cpp.s
 
-tester.o: tester.cpp.o
-
-.PHONY : tester.o
-
-# target to build an object file
-tester.cpp.o:
-	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/tester.cpp.o
-.PHONY : tester.cpp.o
-
-tester.i: tester.cpp.i
-
-.PHONY : tester.i
-
-# target to preprocess a source file
-tester.cpp.i:
-	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/tester.cpp.i
-.PHONY : tester.cpp.i
-
-tester.s: tester.cpp.s
-
-.PHONY : tester.s
-
-# target to generate assembly for a file
-tester.cpp.s:
-	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/tester.cpp.s
-.PHONY : tester.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,6 +270,9 @@ help:
 	@echo "... Board.o"
 	@echo "... Board.i"
 	@echo "... Board.s"
+	@echo "... GameDriver.o"
+	@echo "... GameDriver.i"
+	@echo "... GameDriver.s"
 	@echo "... Ladder.o"
 	@echo "... Ladder.i"
 	@echo "... Ladder.s"
@@ -279,9 +282,6 @@ help:
 	@echo "... Snake.o"
 	@echo "... Snake.i"
 	@echo "... Snake.s"
-	@echo "... tester.o"
-	@echo "... tester.i"
-	@echo "... tester.s"
 .PHONY : help
 
 

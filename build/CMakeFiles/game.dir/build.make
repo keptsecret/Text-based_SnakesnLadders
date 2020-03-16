@@ -57,18 +57,18 @@ include CMakeFiles/game.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/game.dir/flags.make
 
-CMakeFiles/game.dir/tester.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/tester.cpp.o: ../tester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nut/Code/CPP/TextbasedSnakesnLadders/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/tester.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/tester.cpp.o -c /Users/nut/Code/CPP/TextbasedSnakesnLadders/tester.cpp
+CMakeFiles/game.dir/GameDriver.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/GameDriver.cpp.o: ../GameDriver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nut/Code/CPP/TextbasedSnakesnLadders/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/GameDriver.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/GameDriver.cpp.o -c /Users/nut/Code/CPP/TextbasedSnakesnLadders/GameDriver.cpp
 
-CMakeFiles/game.dir/tester.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/tester.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nut/Code/CPP/TextbasedSnakesnLadders/tester.cpp > CMakeFiles/game.dir/tester.cpp.i
+CMakeFiles/game.dir/GameDriver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/GameDriver.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nut/Code/CPP/TextbasedSnakesnLadders/GameDriver.cpp > CMakeFiles/game.dir/GameDriver.cpp.i
 
-CMakeFiles/game.dir/tester.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/tester.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nut/Code/CPP/TextbasedSnakesnLadders/tester.cpp -o CMakeFiles/game.dir/tester.cpp.s
+CMakeFiles/game.dir/GameDriver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/GameDriver.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nut/Code/CPP/TextbasedSnakesnLadders/GameDriver.cpp -o CMakeFiles/game.dir/GameDriver.cpp.s
 
 CMakeFiles/game.dir/Board.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/Board.cpp.o: ../Board.cpp
@@ -124,7 +124,7 @@ CMakeFiles/game.dir/Player.cpp.s: cmake_force
 
 # Object files for target game
 game_OBJECTS = \
-"CMakeFiles/game.dir/tester.cpp.o" \
+"CMakeFiles/game.dir/GameDriver.cpp.o" \
 "CMakeFiles/game.dir/Board.cpp.o" \
 "CMakeFiles/game.dir/Ladder.cpp.o" \
 "CMakeFiles/game.dir/Snake.cpp.o" \
@@ -133,7 +133,7 @@ game_OBJECTS = \
 # External object files for target game
 game_EXTERNAL_OBJECTS =
 
-game: CMakeFiles/game.dir/tester.cpp.o
+game: CMakeFiles/game.dir/GameDriver.cpp.o
 game: CMakeFiles/game.dir/Board.cpp.o
 game: CMakeFiles/game.dir/Ladder.cpp.o
 game: CMakeFiles/game.dir/Snake.cpp.o

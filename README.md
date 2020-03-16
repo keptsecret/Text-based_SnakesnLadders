@@ -1,5 +1,11 @@
 # Text-based Snakes 'n Ladders
 
+## v0.1.4
+
+Near complete version of the game
+
+___Version notes:__ gotta hand player control to the player (i.e. dice rolls) and print status after every turn_
+
 ## v0.1.3
 
 Creating the board now works

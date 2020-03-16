@@ -17,6 +17,7 @@ class Board {
 
     Board(int s, int d);
     int getSize();
+    int getDice();
     void initialize(int ns, int nl);
     bool update(Player &p);
     void checkBoardStatus();

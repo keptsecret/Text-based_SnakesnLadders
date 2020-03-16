@@ -89,3 +89,5 @@ void Board::checkBoardStatus()
 }
 
 int Board::getSize() { return size; }
+
+int Board::getDice() { return dice; }

@@ -1,8 +1,8 @@
 [
 {
   "directory": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/build",
-  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/game.dir/tester.cpp.o -c /Users/nut/Code/CPP/TextbasedSnakesnLadders/tester.cpp",
-  "file": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/tester.cpp"
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/game.dir/GameDriver.cpp.o -c /Users/nut/Code/CPP/TextbasedSnakesnLadders/GameDriver.cpp",
+  "file": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/GameDriver.cpp"
 },
 {
   "directory": "/Users/nut/Code/CPP/TextbasedSnakesnLadders/build",
