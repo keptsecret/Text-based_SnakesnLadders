@@ -1,18 +1,14 @@
-//#include <new>
-//#include <string>
+#include <random>
 #include <vector>
 #include <iostream>
 #include <ctime>
-//#include "Snake.h"
-//#include "Player.h"
-//#include "Ladder.h"
 #include "Board.h"
 
 Board::Board(int s, int d) 
 {
     std::cout << "Creating board of size " << s << " and playing with a " << d << "-sided die..." << std::endl;
     size = s;
-    dice = d;
+    dice_sides = d;
 }
 
 void Board::initialize(int ns, int nl)
@@ -23,7 +19,11 @@ void Board::initialize(int ns, int nl)
 
     std::cout << "Initializing... ";
     // create the snakes
-    srand(time(nullptr));
+    srand(time(0));
+    /*std::mt19937 rng;
+    uint32_t seed_val;
+    rng.seed(seed_val);
+    std::uniform_int_distribution<int> dice(1, size / num_snake);*/
     snake_list.reserve(num_snake);
     for (int i = 0; i < num_snake; i++)
     {
@@ -33,6 +33,7 @@ void Board::initialize(int ns, int nl)
         do 
         {
             pos = rand() % (size / num_snake) + (size / num_snake * i) + 1;
+            //pos = dice(rng);
         } while (pos < 5 || pos > 90);
         snake_list.push_back(Snake(rand() % pos, pos));
     }
@@ -90,4 +91,4 @@ void Board::checkBoardStatus()
 
 int Board::getSize() { return size; }
 
-int Board::getDice() { return dice; }
+int Board::getDice() { return dice_sides; }

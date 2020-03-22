@@ -1,6 +1,12 @@
 # Text-based Snakes 'n Ladders
 
-## v.0.1.5
+## v0.1.5.1
+
+Fixed random number generator for player
+
+___Version notes:__ fix generation of ladders and snake lengths_
+
+## v0.1.5
 
 Entire game pretty much works now, random number generator is still outputting same numbers however
 

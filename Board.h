@@ -9,7 +9,7 @@ class Board {
     private:
     
     int size;
-    int dice;
+    int dice_sides;
     std::vector<Snake> snake_list;
     std::vector<Ladder> ladder_list;
 

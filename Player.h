@@ -1,4 +1,5 @@
 #include <string>
+#include <random>
 #ifndef PLAYER_H
 #define PLAYER_H
 
@@ -6,6 +7,7 @@ class Player {
     private:
 
     std::string name;
+    std::mt19937 rng;
     int player_id;
     int position;
     bool win;
