@@ -1,5 +1,11 @@
 # Text-based Snakes 'n Ladders
 
+## v.0.1.5
+
+Entire game pretty much works now, random number generator is still outputting same numbers however
+
+___Version notes:__ use better RNG and add more functionality_
+
 ## v0.1.4
 
 Near complete version of the game

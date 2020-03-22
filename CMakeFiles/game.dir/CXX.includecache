@@ -6,36 +6,16 @@
 
 #IncludeRegexTransform: 
 
-/Users/nut/Code/CPP/TextbasedSnakesnLadders/Board.h
-vector
--
-Snake.h
-/Users/nut/Code/CPP/TextbasedSnakesnLadders/Snake.h
-Ladder.h
-/Users/nut/Code/CPP/TextbasedSnakesnLadders/Ladder.h
-
-/Users/nut/Code/CPP/TextbasedSnakesnLadders/GameDriver.cpp
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/Player.cpp
+Player.h
+/Users/nut/Code/CPP/TextbasedSnakesnLadders/Player.h
 iostream
 -
-vector
--
 string
 -
-Board.h
-/Users/nut/Code/CPP/TextbasedSnakesnLadders/Board.h
-Player.h
-/Users/nut/Code/CPP/TextbasedSnakesnLadders/Player.h
-
-/Users/nut/Code/CPP/TextbasedSnakesnLadders/Ladder.h
-Player.h
-/Users/nut/Code/CPP/TextbasedSnakesnLadders/Player.h
-
-/Users/nut/Code/CPP/TextbasedSnakesnLadders/Player.h
-string
+time.h
 -
 
-/Users/nut/Code/CPP/TextbasedSnakesnLadders/Snake.h
-Player.h
 /Users/nut/Code/CPP/TextbasedSnakesnLadders/Player.h
 string
 -

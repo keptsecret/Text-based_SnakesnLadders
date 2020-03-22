@@ -49,8 +49,10 @@ int main(int argc, char const *argv[])
 
     while (!end)
     {
-        player_list.at(player_rotator).move(board.getDice());
-        end = board.update(player_list.at(player_rotator));
+        Player& current_player = player_list.at(player_rotator);
+        current_player.move(board.getDice());
+        end = board.update(current_player);
+        std::cout << "Player " << current_player.getName() << " is at " << current_player.getPosition() << std::endl;
         player_rotator++;
         if (player_rotator >= num_players)
         {
